@@ -1,0 +1,17 @@
+.main-container {
+  margin: 2em;
+  padding: 1.5em;
+  color: white;
+}
+.main-title {
+  margin-bottom: 0.5em;
+}
+.main-facts {
+  list-style: square;
+  line-height: 3em;
+}
+
+.main-facts > li::marker {
+  font-size: 1.5rem;
+  color: #61dafb;
+}

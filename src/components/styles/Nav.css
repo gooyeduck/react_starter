@@ -1,0 +1,35 @@
+* {
+  margin: 0em;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 1.5em;
+}
+.nav_logo {
+  display: flex;
+}
+.nav_logo > h2 {
+  color: #61dbfb;
+}
+.nav-list {
+  color: #61dbfb;
+  margin-right: 1.3em;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
