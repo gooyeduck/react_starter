@@ -1,12 +1,13 @@
-
 import Nav from './components/layout/Nav';
 import Main from './components/layout/Main';
-import "./App.css"
+import Hero from './components/layout/Hero';
+import './App.css';
 function App() {
   return (
     <div className="App">
-      <Nav/>
-      <Main/>
+      <Nav />
+      <Hero/>
+      <Main />
     </div>
   );
 }
